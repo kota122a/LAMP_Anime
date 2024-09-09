@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課題</title>
+    
+    <style>
+                body {
+          background: #ffffff;
+          height: 1500px;
+        }
+        
+        .header {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 140px;
+          background: rgb(255, 255, 255);
+          -webkit-transition: height 0.3s;
+          -moz-transition: height 0.3s;
+          transition: height 0.3s;
+        }
+        
+        .header .wrap {
+          margin: 0 auto;
+          width: 90%;
+          max-width: 69em;
+        }
+        
+        .header h1,
+        .header .menu {
+            display: inline-block;
+            position: relative;
+        }
+        
+        .header h1 {
+          float: left;
+          margin: 0;
+          font-size: 0; /* 文字サイズを0にして、画像のサイズを固定 */
+        }
+        
+        .header h1 img {
+            height: 100px; /* メニューのバックラインに合わせた高さ */
+            width: auto; /* アスペクト比を維持して幅を自動調整 */
+            display: block;
+        }
+
+        .header h2,
+        .header .menu {
+            display: inline-block;
+            position: relative;
+        }
+        
+        .header h2 {
+          float: right;
+          margin: 0;
+          font-size: 0; /* 文字サイズを0にして、画像のサイズを固定 */
+        }
+        
+        .header h2 img {
+            height: 100px; /* メニューのバックラインに合わせた高さ */
+            width: auto; /* アスペクト比を維持して幅を自動調整 */
+            display: block;
+        }
+        
+        .header .menu {
+          float: right;
+        }
+
+        .header .menu a {
+             line-height: 140px; 
+             color: #808080; 
+             text-decoration: none;
+             margin-left: 20px; /* 画像とメニューの間に適度な余白を追加 */
+        }
+        
+        .header .menu a:hover {
+            color: #ff0000;
+            transition: color 0.3s ease;
+        }
+        
+        /* Shrinking */
+        .header.shrink { height: 90px; }
+         
+        .header.shrink h1 img { height: 60px; } /* 画像も小さくする */
+         
+        .header.shrink .menu a { line-height: 90px; }
+
+        .lead {  
+            margin-bottom: 100px;
+            margin-top: 200px;
+            font-size: 50px;
+            text-align: left;
+            margin-left: 150px;
+            margin-right: 30px;
+        }
+        
+        .sm {
+            font-size: 15px;
+            color: red;
+        }
+        
+        .img0 {
+            text-align: center;
+        }
+
+        .syoukai {
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .syoukaibun {
+            font-weight: bold;
+            text-align: justify;
+            margin-left: 150px; /* 左側に30pxの余白を追加 */
+        }
+
+
+        .contact-container {
+            
+            right: 0;
+            top: 0;
+            line-height: 140px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-img img {
+           
+            height: 50px; /* 画像の高さを調整 */
+            width: auto; /* アスペクト比を維持して幅を自動調整 */
+        }
+     </style>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrap">                     
+            <h1><a href="#top"><img src="http://18.178.60.234/students/G202503_02/Anime/%E7%94%BB%E5%83%8F/%E3%83%91%E3%83%81%E3%83%A2%E3%83%B3.png" alt=""></a></h1>
+            <div class="senntaku">
+                <nav class="menu">
+                    <a class='navbar-brand' href=#>テスト１</a>
+    
+                    <a class='navbar-brand' href=#>テスト２</a>
+    
+                    <a class='navbar-brand' href=#>テスト３</a>
+                </nav>
+            </div>
+            <h2><a  href=http://18.178.60.234/students/G202503_02/Anime/News.html><img src="http://18.178.60.234/students/G202503_02/Anime/%E7%94%BB%E5%83%8F/%E3%83%91%E3%83%81%E3%83%A2%E3%83%B3%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC.png" alt=""></a></h2>
+        </div>
+    </header>
+
+    <div class="lead">
+       
+    </div>
+
+    <div class="img0">
+    <img src="http://18.178.60.234/students/G202503_02/Anime/%E7%94%BB%E5%83%8F/%E3%83%9E%E3%82%AF%E3%83%AD%E3%82%B9.png" alt="">
+    </div>
+
+    <div class="syoukai">
+        <p>マクロス０</p> 
+    </div>
+    <div class="syoukaibun">
+        <p>超時空要塞マクロス』の前日譚を描いた作品。シリーズ初のフルCGメカで描かれるアクションシーンが必見。
+            『マクロスF』及び、超時空音楽リズムゲーム『歌マクロス』に<br>
+           登場する超古代文明プロトカルチャーの遺物「鳥の人(Bird Human)」の存在が物語のキー。（全5話）</p> 
+        
+    </div>
+            
+        
+    
+    
+
+    
+</body>
+</html>
